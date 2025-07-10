@@ -18,16 +18,6 @@ A rendszer három komponensből áll:
 4. A fájlszerver fogadja a fájlt és lekérdezi az ellenőrzőösszeget a checksum szervertől
 5. A szerver kiírja "CSUM OK" ha helyes, vagy "CSUM CORRUPTED" ha sérült
 
-## Fájlstruktúra
-
-```
-.
-├── checksum_srv.py    # Ellenőrzőösszeg szerver
-├── netcopy_cli.py     # Kliens alkalmazás
-├── netcopy_srv.py     # Fájlszerver
-└── README.md          # Ez a fájl
-```
-
 ## Használat
 
 ### 1. Ellenőrzőösszeg szerver indítása
