@@ -90,5 +90,4 @@ python netcopy_cli.py 127.0.0.1 9000 127.0.0.1 8000 test_file example.txt
 ## Megjegyzések
 
 - Az ellenőrzőösszegek alapértelmezett lejárata 60 másodperc
-- A rendszer MD5 hash-t használ (nem biztonságos valós használatra)
 - A fájlok 4096 bájtos blokkokban kerülnek átvitelre
